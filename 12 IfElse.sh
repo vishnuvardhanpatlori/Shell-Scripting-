@@ -12,7 +12,7 @@
 
 #!/bin/bash
 read -p "enter your marks:" marks
-if [ [ marks -ge 40 ] ]
+if [ [ $marks -ge 40 ] ]
 then 
 echo "you are PASSED"
 else
